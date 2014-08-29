@@ -6,6 +6,9 @@
 
 #top_bar{
     display: inline-table;
-    background: lightblue;
+    color: lightblue;
+    background-color: black;
+    white-space: normal;
+    font: serif;
 }
 
