@@ -5,10 +5,8 @@
 
 
 #top_bar{
-    display: inline-table;
+    display: inline;
     color: lightblue;
     background-color: black;
-    white-space: normal;
-    font: serif;
 }
 
