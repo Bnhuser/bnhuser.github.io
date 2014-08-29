@@ -1,4 +1,4 @@
-#index.html{
+body{
     background-color: lightgray;   
 }
 
@@ -6,6 +6,7 @@
 
 #top_bar{
     display: inline;
+    border-style: solid;
     background: lightblue;
 }
 
@@ -13,5 +14,6 @@
 
 #top_bar_items{
     display: inline;
+    border-style: solid;
     background-color: lightgreen;
 }
