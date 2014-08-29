@@ -1,15 +1,15 @@
 
 body{
     background-color: gainsboro;   
-    color: orange;
+    
 }
 
 h1{
-    color: pink;
+    color: teal;
 }
 
 h2{
-    color: pink;  
+    color: teal;  
 }
 
 
@@ -18,7 +18,6 @@ h2{
     padding-right: 15px;
     display: inline;
     color: lightblue;
-    background-color: black;
 }
 
 .panel_1{
