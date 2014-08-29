@@ -1,4 +1,6 @@
-
+#index.html{
+    background-color: lightgray;   
+}
 
 
 
@@ -9,8 +11,7 @@
 
 
 
-
-
 #top_bar_items{
- display: inline
+    display: inline;
+    background-color: lightgreen;
 }
