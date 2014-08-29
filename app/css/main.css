@@ -1,15 +1,15 @@
-body{
+.body{
     background-color: lightgray;   
 }
 
-h1{
+.h1{
     background-color: pink;
 }
 
 
 
-#top_bar{
-    padding-left: 15px;
+.top_bar{
+    padding-left: 30px;
     padding-right: 15px;
     display: inline;
     color: lightblue;
