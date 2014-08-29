@@ -12,7 +12,7 @@ body{
 
 
 
-#top_bar_items{
+#top_bar_items li{
     display: inline;
     border-style: solid;
     background-color: lightgreen;
