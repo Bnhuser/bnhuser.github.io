@@ -1,19 +1,16 @@
-body{
+#body{
     background-color: lightgray;   
 }
 
 
 
 #top_bar{
-    display: inline;
-    border-style: solid;
+    margin:0;
+    padding:0;    
+    list-style:none; 
+    white-space: nowrap;
+    overflow:hidden; 
+    position:absolute;
     background: lightblue;
 }
 
-
-
-#top_bar_items li{
-    display: inline;
-    border-style: solid;
-    background-color: lightgreen;
-}
