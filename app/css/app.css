@@ -15,7 +15,7 @@ h2{
 }
 
 
-#top_bar{
+.top_bar{
     padding-left: 30px;
     padding-right: 15px;
     display: inline;
@@ -23,7 +23,7 @@ h2{
     background-color: black;
 }
 
-#panel_1{
+.panel_1{
     padding-left: 50px;
     padding-right: 50px;
     color: blue;
