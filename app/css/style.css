@@ -35,13 +35,13 @@ h2{
 }
 
 .text{
-    background-color: #CCB299; 
-    font-size: medium;
+    background-color: #EBE0D6; 
+    font-size: small;
     font-family: "Palatino Linotype";
 }
 
 .panel-heading{
-    background-color: #B89470; 
+    background-color: #EBE0D6; 
     font-size: large;
     font-family: "Palatino Linotype";
 }
