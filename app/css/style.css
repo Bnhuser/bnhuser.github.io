@@ -1,6 +1,8 @@
 
 body{
     background-color: #B2E0E0;   
+    padding-left: 50px;
+    padding-right: 50px;
     
 }
 
@@ -20,12 +22,6 @@ h2{
     padding-right: 15px;
     display: inline;
     color: lightblue;
-}
-
-.panel_1{
-    padding-left: 50px;
-    padding-right: 50px;
-    color: blue;
 }
 
 .thing{
