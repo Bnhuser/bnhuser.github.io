@@ -28,5 +28,7 @@ h2{
 
 .thing{
     color: #4C331A;
-    background-color: #66C2C2;   
+    background-color: #66C2C2; 
+    font-size: large;
+    font-family: "Palatino Linotype";
 }
