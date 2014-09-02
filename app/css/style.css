@@ -34,6 +34,13 @@ h2{
     font-family: "Palatino Linotype";
 }
 
-.panel_1{
- background-color: #CCB299;   
+.panel panel-default{
+    background-color: #CCB299; 
+    font-size: medium;
+    font-family: "Palatino Linotype";
+}
+
+.panel-heading{
+    font-size: large;
+    font-family: "Palatino Linotype";
 }
