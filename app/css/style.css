@@ -6,10 +6,12 @@ body{
 
 h1{
     color: #4C331A;
+    font-family: "Palatino Linotype";
 }
 
 h2{
     color: #4C331A;  
+    font-family: "Palatino Linotype";
 }
 
 
@@ -29,6 +31,7 @@ h2{
 .thing{
     color: #4C331A;
     background-color: #66C2C2; 
+    border: bold;
     font-size: large;
     font-family: "Palatino Linotype";
 }
