@@ -30,18 +30,19 @@ h2{
     border-style: inset;
     border-width: thin;
     border-color: #4C331A;
+    border-radius: 15px;
     font-size: large;
     font-family: "Palatino Linotype";
 }
 
 .text{
-    background-color: #EBE0D6; 
-    font-size: small;
+    background-color: gainsboro; 
+    font-size: medium;
     font-family: "Palatino Linotype";
 }
 
 .panel-heading{
-    background-color: #EBE0D6; 
+    background-color: gainsboro; 
     font-size: large;
     font-family: "Palatino Linotype";
 }
