@@ -22,7 +22,7 @@ h4{
 }
 
 footer {
-    position:fixed;
+    position:relative;
     height:50px;
     background-color:transparent;
     bottom:0px;
