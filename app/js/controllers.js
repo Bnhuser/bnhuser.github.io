@@ -2,13 +2,23 @@
 
 /* Controllers */
 
-var fitbitController = angular.module('fitbitController', []);
+var homeController = angular.module('homeController', []);
+var whySKController = angular.module('whySKController', []);
 
 
 //==============================
 //-----Home page controller-----
 //==============================
-fitbitController.controller('MainCtrl', ['$scope', function($scope) {
+homeController.controller('MainCtrl', ['$scope', function($scope) {
+       
+
+
+}]);
+
+//==============================
+//-----Why SK controller-----
+//==============================
+homeController.controller('WhySKCtrl', ['$scope', function($scope) {
        
 
 
