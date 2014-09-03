@@ -21,6 +21,13 @@ h4{
     font-family: "Palatino Linotype";
 }
 
+#footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}
 
 .top_bar{
     padding-left: 30px;
