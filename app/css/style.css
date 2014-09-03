@@ -22,11 +22,12 @@ h4{
 }
 
 footer {
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
+    height: 50px; 
+	background: blue;
+	position: absolute; //tells the browser to position #footer relative to #wrapper
+	bottom: 3; #sticks the footer 3px above the bottom edges of the #wrapper div
+	width: inherit;
+	text-align: center;
 }
 
 .top_bar{
