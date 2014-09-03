@@ -5,7 +5,9 @@
 angular.module('myApp', [
     'ngRoute',
     'homeController',
-    'whySKController'
+    'whySKController',
+    'exampleController',
+    'moreController'
 ]).
 config(['$routeProvider', 
     function($routeProvider){
@@ -17,6 +19,14 @@ config(['$routeProvider',
     when('/home/whySK',{
         templateUrl:'app/partials/whySK.html',
         controller:'WhySKCtrl'
+    }).
+    when('/home/example',{
+        templateUrl:'app/partials/example.html',
+        controller:'exampleCtrl'
+    }).
+    when('/home/more',{
+        templateUrl:'app/partials/more.html',
+        controller:'moreCtrl'
     }).
     otherwise({
         redirectTo: '/home'});
