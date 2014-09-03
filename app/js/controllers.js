@@ -10,8 +10,6 @@ var fitbitController = angular.module('fitbitController', []);
 //==============================
 fitbitController.controller('MainCtrl', ['$scope', function($scope) {
        
-});
-    
-    
+
 
 }]);
