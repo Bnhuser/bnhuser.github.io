@@ -21,7 +21,7 @@ h4{
     font-family: "Palatino Linotype";
 }
 
-#footer {
+footer {
     clear: both;
     position: relative;
     z-index: 10;
