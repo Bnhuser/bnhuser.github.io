@@ -8,11 +8,10 @@ var fitbitController = angular.module('fitbitController', []);
 //==============================
 //-----Home page controller-----
 //==============================
-fitbitController.controller('ListCtrl', ['$scope', '$http', function($scope, $http) {
-       $http.get('data_items/stuff.json').success(function(data){
-           $scope.data_items = data;
+fitbitController.controller('MainCtrl', ['$scope', function($scope) {
+       
 });
     
-    $scope.orderProp = 'title';
+    
 
 }]);
