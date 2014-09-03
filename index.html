@@ -1,72 +1,26 @@
-<!DOCTYPE html>
-
-<html lang="en" ng-app>
-    <head>
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="app/css/style.css">
-        <script src="bower_components/angular/angular.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/controllers.js"></script>
-    </head>
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Learning Sprite Kit</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="app/css/style.css">  
+  
+</head>
+<body>    
     
-    
-    <body >
-        <h1>Learning Sprite Kit</h1>
-        <h2> With XCode 6</h2>
-        
-        <br>
-        <br>
-        
-        <div id="top_bar" class="row">
-            <div class="col-xs-3" align="center">
-                <a href="#/partials/home">
-                    <div class="thing">
-                        Home
-                    </div>
-                </a>
-            </div>
-            <div class="col-xs-3" align="center">
-                <a href="#/partials/whySK">
-                    <div class="thing">
-                        Why Sprite Kit?
-                    </div>
-                </a>
-            </div>  
-            <div class="col-xs-3" align="center">
-                <a href="#/partials/example">
-                    <div class="thing">
-                        Sprite Kit Example
-                    </div>
-                </a>
-            </div>
-            <div class="col-xs-3" align="center">
-                <a href="#/partials/more">
-                    <div class="thing">
-                        More...
-                    </div>
-                </a>
-            </div>        
-        </div>
-    
-        <br>
-        <br>
-
-        <div id="panel_1">
-            <div class="panel panel-default" "col-md-5" style="text-align:center;">
-                <div class="panel-heading" style="text-align:center;"> 
-                <h4>What's this about?</h4> 
-                </div>
-                <div class="text">
-                    <br>
-                    This website covers the basics of Apple's Sprite Kit with XCode 6.
-                    <br>
-                    <br>
-                </div>                 
-            </div>
-        </div>
-
-        
-        
-        </body>
-   
+    <div class="container" id="home" >
+        <div ng-view></div>
+    </div>
+  
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/angular-resource/angular-resource.js"></script>
+    <script src="../bower_components/oauth-js/dist/oauth.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/controllers.js"></script>
+</body>
 </html>
+
+
+
